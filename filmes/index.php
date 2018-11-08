@@ -2,7 +2,7 @@
     require 'flight/Flight.php';
 
     function getLink(){
-        $link = mysqli_connect('localhost', 'root', '', 'filmesPHP');
+        $link = mysqli_connect('mysql://pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ix6m7u0ub3njb1bf', 'qd8hb5kohkg5ouhl', 'gzpt6w2mcy626875', 'filmesPHP');
         mysqli_query($link, "SET NAMES 'utf8'");
         mysqli_query($link, 'SET character_set_connection=utf8');
         mysqli_query($link, 'SET character_set_client=utf8');
