@@ -10,6 +10,10 @@
 
         return $link;
     }
+
+    Flight::route('GET /', function(){
+        Flight::redirect('index.html');
+      });
  
     // Get filmes
     Flight::route('GET /filmes', function(){
